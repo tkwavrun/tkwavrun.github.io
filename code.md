@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CMMR: Code"
+title: "CMMR Code"
 ---
 Check out our work on Github:
  * [CMMR on GitHub](https://github.com/CMMRLab)
