@@ -58,6 +58,10 @@ body {
   --bs-nav-link-font-weight: 600;
 }
 
+.nav-pills .nav-link.active {
+    background-color: #27486f;
+}
+
 // pill colors
 // .nav-pills {
 //     --bs-nav-pills-border-radius: var(--bs-border-radius);
