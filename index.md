@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "CMMR Lab"
 notitle: true
+title: Home
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
@@ -24,9 +24,6 @@ role-tables:
 <blockquote>
 <p><em>"Measure what can be measured, and make measurable what cannot be"</em>— Galileo Galilei</p>
 </blockquote>
-        <!-- <p style="text-align:center"><i>
-          Quote about the importance of multiscale modeling or composites.<br>
-        </i></p> -->
         <p>
         The <b>CMMR Lab</b> at <b>Michigan Technological University</b> aproaches the
         fundamentally multi-scale nature of composites through molecular simulation, 

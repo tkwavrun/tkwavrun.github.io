@@ -1,6 +1,14 @@
 ---
 layout: default
+notitle: true
 title: Our Research
+
+# To add research topics, create a .md (markdown) file in the _concepts folder, then
+# set it's order in the header portion (i.e. here). Store any relevant image files in
+# the img folder, and link as shown in the already-included examples.
+
+# To add projects, do the same, but in the _projects folder. Adding header images is a little
+# more involved, but still easy and shown in the USCOMP example.
 ---
 
 <div class="row">

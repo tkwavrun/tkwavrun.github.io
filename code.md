@@ -1,6 +1,10 @@
 ---
 layout: default
-title: "CMMR Code"
+notitle: true
+title: Code
+
+# Below is a list of codes in markdown. It should be easy to link images
+# and citations in-place if somebody wants to at some point
 ---
 Check out our work on Github:
  * [CMMR on GitHub](https://github.com/CMMRLab)

@@ -9,6 +9,10 @@ picture-role-groups:
 no-picture-role-groups:
 - {roles: [collab, ugrad, ugrad-alum], width: 5}
 - {roles: [alum], width: 7}
+
+###########################
+# To add lab members, add them in the _data/people.yml file, not here
+###########################
 ---
 
 <section class="people row justify-content-between">
