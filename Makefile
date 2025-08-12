@@ -23,7 +23,7 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-workflow: clean build
+workflow: clean _includes/pubs.html
 
 push: clean build
   # this needs to be updated to git push instead
