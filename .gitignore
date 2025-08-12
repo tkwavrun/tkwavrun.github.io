@@ -1,5 +1,7 @@
 _site
-_includes/pubs.html
-/test-deploy.sh
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 Gemfile.lock
