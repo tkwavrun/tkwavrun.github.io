@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: CMMR Lab
+url: http://cmmr-test.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -38,6 +38,8 @@ base: ''
 collections:
   projects:
     output: true
+  concepts:
+    output: False
 
 # Navigation bar links.
 navigation:

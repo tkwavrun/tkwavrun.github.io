@@ -1,9 +1,16 @@
 ---
 layout: post
-title: "A Full Blog Post"
-icon: star-o
+title: New Study Accelerates Development of Hypersonic Planes with Nanotechnology
+date: 11-10-2017
+
+icon: newspaper-o #https://fontawesome.com/v4/icons/
+
+
+image: https://www.azom.com/image-handler/ts/20171011084348/ri/950/src/images/news/NewsImage_48272.jpg
+# image_style: "max-height: 100px;"
+image_link: "https://www.azom.com/news.aspx?newsID=48272"
 ---
 
-Unlike a short news post, a blog post has its own page and lots of text. Text text text.
+The time taken for an average flight from Miami to Seattle is about six hours and 40 minutes, but imagine if it were possible to reduce that time to 50 minutes or less. A new study by Researchers at NASA and Binghamton University, State University of New York, could result in a substantial decrease in flight times.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+[Read More: AZOM](https://www.azom.com/news.aspx?newsID=48272)

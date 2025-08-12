@@ -1,161 +1,85 @@
 
-prof-a:
-    display_name: "Prof A"
+Greg:
+    display_name: "Gregory Odegard"
     role: faculty
+    webpage: https://pages.mtu.edu/~gmodegar/
+    bio: Greg Odegard is John O. Hallquist Endowed Chair in Computational Mechanics in the Mechanical and Aerospace Engineering at Michigan Technological University.
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
+Sagar:
+    display_name: "Sagar U. Patil"
     role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
+    bio: Biography
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
+Josh:
+    display_name: "Josh Kemppainen"
     role: postdoc
+    bio: Biography
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+Trevor:
+    display_name: "Trevor Wavrunek"
     role: grad
-    image: /img/people/storm.png
+    bio: Biography
 
-grad-a:
-    display_name: "Grad A"
+Tristan:
+    display_name: "Tristan Muzzy"
     role: grad
+    bio: Biography
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+Keith:
+    display_name: "Keith Pikelman"
     role: grad
+    bio: Biography
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
-
-grad-d:
-    display_name: "Grad D"
-    role: grad
-
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
+Mallory:
+    display_name: "Mallory Metzger"
     role: ugrad
+    bio: Biography
 
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
+Swapnil:
+    display_name: "Swapnil Bamane"
+    role: alum
+    bio: Ph.D., YYYY. Now at ******.
 
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
+Ivan:
+    display_name: "Ivan Gallegos"
+    role: alum
+    bio:  Ph.D., YYYY. Now at ******.
 
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
+Khate:
+    display_name: "Khatereh Kashmari"
+    role: alum
+    bio:  Ph.D., YYYY. Now at ******.
 
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
+Prathamesh:
+    display_name: "Prathamesh Despande"
+    role: alum
+    bio:  Ph.D., YYYY. Now at ******.
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+Hashim:
+    display_name: "Hashim al Mahmud"
+    role: alum
+    bio:  Ph.D., YYYY. Now at ******.
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+Will:
+    display_name: "Will Pisani"
+    role: alum
+    bio:  Ph.D., YYYY. Now at ******.
+
+Matt:
+    display_name: "Matt Radue"
+    role: alum
+    bio:  Ph.D., YYYY. Now at ******.
+
+Marianna:
+    display_name: "Marianna Maiaru"
+    role: collab
+    bio:  Biography
+
+Liang:
+    display_name: "Richard Liang"
+    role: collab
+    bio:  Biography
+
+Others:
+    display_name: "..."
+    role: alum

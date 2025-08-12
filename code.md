@@ -2,8 +2,15 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
+Check out our work on Github:
+ * [CMMR on GitHub](https://github.com/CMMRLab)
 
-If you like this template, find our group's other code here:
+## Notable Codes
+*LUNAR: The ultimate preperation and processing utility for MD:*
+[LUNAR on GitHub](https://github.com/CMMRLab/LUNAR)
 
- * [uwsampa on GitHub](https://github.com/uwsampa/)
+*Noise-Free Stress/Strain fitting in MD (Regression Fringe Slope):*
+[RFS Modulus on GitHub](https://github.com/CMMRLab/RFR_stress_strain)
+
+*A more stable 2nd order dissociative  forcefield:*
+[Class2-xe on GitHub](https://github.com/CMMRLab/Class2-xe)

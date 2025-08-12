@@ -6,8 +6,8 @@
 {% else %}
     {% capture proj-url %}{{site.base}}{{project.url}}.html{% endcapture %}
 {% endif %}
-
-<div class="card">
+<div class="col-sm-6">
+<div class="card mb-3">
     <div class="card-body">
         {% if project.image %}
             {% assign imgurl = project.image %}
@@ -29,9 +29,9 @@
                 {{  project.subtitle }}
             </h6>
         {% endif %}
-        <div class="card-text">
+        <p class="card-text">
             {{ project.description | markdownify }}
-        </div>
+        </p>
         {% if project.no-link != true or project.link %}
             <a href="{{ proj-url }}"> Read more &raquo;</a>
         {% endif %}
@@ -46,4 +46,5 @@
             {% endfor %}
         </div>
     {% endif %}
+</div>
 </div>

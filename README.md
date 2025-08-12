@@ -1,11 +1,7 @@
-Research Group Web Site Template
+Research Group Web Site (In progress from template described below) 
 ================================
 
 This is a [Jekyll][]-based Web site intended for research groups. Your group should be able to get up and running with minimal fuss.
-
-<p align="center">
-<img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
-</p>
 
 This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
 
