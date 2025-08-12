@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CMMR Lab
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 description: >- # this means to ignore newlines until "baseurl:"
   description here
 
@@ -55,7 +55,7 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: ''
+# base: ''
 
 # make pages for the _projects folder
 collections:
