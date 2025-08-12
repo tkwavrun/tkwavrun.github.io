@@ -28,4 +28,5 @@ DEPLOY_PATH ?= www/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
 
 deploy: clean build
+  # this needs to be updated to git push instead
 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)

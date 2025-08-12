@@ -1,5 +1,6 @@
 name: CMMR Lab
-url: http://cmmr-test.edu
+domain: tkwavrun.github.io
+url: http://tkwavrun.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
