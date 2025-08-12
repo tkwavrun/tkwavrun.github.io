@@ -23,7 +23,9 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-deploy: clean build
+workflow: clean build
+
+push: clean build
   # this needs to be updated to git push instead
 # 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
 	git add .
