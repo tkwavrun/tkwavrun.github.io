@@ -37,10 +37,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r bibble
+          pip install bibble
       - name: Run tests
         run: |
-          bibble
+          bibble bib/pubs.bib bib/publications.tmpl
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
