@@ -23,10 +23,9 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
-
 deploy: clean build
   # this needs to be updated to git push instead
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+# 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	git add .
+	git commit -m "auto-deployment from makefile"
+	git push origin main
