@@ -2,14 +2,14 @@
 Greg:
     display_name: "Gregory Odegard"
     role: faculty
+    image: img/people/GregOdegard.png
     webpage: https://pages.mtu.edu/~gmodegar/
-    bio: Greg Odegard is John O. Hallquist Endowed Chair in Computational Mechanics in the Mechanical and Aerospace Engineering at Michigan Technological University.
+    bio: Prof. Gregory Odegard is the John O. Hallquist Endowed Chair in Computational Mechanics in the Department of Mechanical and Aerospace Engineering at Michigan Tech. Before joining the faculty at Michigan Tech, Greg was a researcher at NASA Langley Research Center from 2000-2004. He is the recipient of the NASA Outstanding Public Leadership Medal, is a Fellow of ASME and ASC, and an Associate Fellow of AIAA.
 
 Sagar:
     display_name: "Sagar U. Patil"
     role: staff
     bio: Biography
-
 Josh:
     display_name: "Josh Kemppainen"
     role: postdoc
@@ -17,9 +17,10 @@ Josh:
 
 Trevor:
     display_name: "Trevor Wavrunek"
+    webpage: https://www.linkedin.com/in/trevor-wavrunek-b0392b137/
+    image: img/people/TrevorWavrunek.png
     role: grad
-    bio: Biography
-
+    bio: Trevor Wavrunek obtained his BS in Engineering Physics from University of Wisconsin - |Platteville in 2021 and is a PhD Candidate at MTU's MAE Department. His current research focuses on process modeling of Bismaleimide resins via molecular dynamics simulation.
 Tristan:
     display_name: "Tristan Muzzy"
     role: grad
@@ -38,37 +39,37 @@ Mallory:
 Swapnil:
     display_name: "Swapnil Bamane"
     role: alum
-    bio: Ph.D., YYYY. Now at ******.
+    bio: Ph.D., 2024. Now at University of North Carolina (PostDoc).
 
 Ivan:
     display_name: "Ivan Gallegos"
     role: alum
-    bio:  Ph.D., YYYY. Now at ******.
+    bio:  Ph.D., 2024.
 
 Khate:
     display_name: "Khatereh Kashmari"
     role: alum
-    bio:  Ph.D., YYYY. Now at ******.
+    bio:  Ph.D., 2025.
 
 Prathamesh:
     display_name: "Prathamesh Despande"
     role: alum
-    bio:  Ph.D., YYYY. Now at ******.
+    bio:  Ph.D., 2022.
 
 Hashim:
     display_name: "Hashim al Mahmud"
     role: alum
-    bio:  Ph.D., YYYY. Now at ******.
+    bio:  Ph.D., ????.
 
 Will:
     display_name: "Will Pisani"
     role: alum
-    bio:  Ph.D., YYYY. Now at ******.
+    bio:  Ph.D., ????.
 
 Matt:
     display_name: "Matt Radue"
     role: alum
-    bio:  Ph.D., YYYY. Now at ******.
+    bio:  Ph.D., ????.
 
 Marianna:
     display_name: "Marianna Maiaru"
