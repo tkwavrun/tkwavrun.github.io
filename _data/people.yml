@@ -2,7 +2,7 @@
 Greg:
     display_name: "Gregory Odegard"
     role: faculty
-    image: img/people/GregOdegard.png
+    image: img/people/GregOdegard.jpg
     webpage: https://pages.mtu.edu/~gmodegar/
     bio: Prof. Gregory Odegard is the John O. Hallquist Endowed Chair in Computational Mechanics in the Department of Mechanical and Aerospace Engineering at Michigan Tech. Before joining the faculty at Michigan Tech, Greg was a researcher at NASA Langley Research Center from 2000-2004. He is the recipient of the NASA Outstanding Public Leadership Medal, is a Fellow of ASME and ASC, and an Associate Fellow of AIAA.
 
@@ -20,7 +20,8 @@ Trevor:
     webpage: https://www.linkedin.com/in/trevor-wavrunek-b0392b137/
     image: img/people/TrevorWavrunek.png
     role: grad
-    bio: Trevor Wavrunek obtained his BS in Engineering Physics from University of Wisconsin - |Platteville in 2021 and is a PhD Candidate at MTU's MAE Department. His current research focuses on process modeling of Bismaleimide resins via molecular dynamics simulation.
+    bio: Trevor Wavrunek obtained his BS in Engineering Physics with Chemistry Minor from University of Wisconsin - Platteville in 2021 and is a PhD Candidate at MTU's MAE Department. His current research focuses on process modeling of Bismaleimide resins via molecular dynamics simulation.
+
 Tristan:
     display_name: "Tristan Muzzy"
     role: grad

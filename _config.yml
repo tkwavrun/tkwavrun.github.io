@@ -74,7 +74,7 @@ navigation:
   - title: Research
     link: /research.html
   - title: Publications
-    link: /publications.html
+    link: https://scholar.google.com/citations?user=QUliNfQAAAAJ&hl=en&oi=ao
   - title: Code
     link: /code.html
 
