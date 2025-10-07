@@ -10,14 +10,19 @@ Sagar:
     display_name: "Sagar U. Patil"
     role: staff
     bio: Biography
+
 Josh:
     display_name: "Josh Kemppainen"
     role: postdoc
     bio: Biography
 
+Keith:
+    display_name: "Keith Pikelman"
+    role: grad
+    bio: Biography
+    
 Trevor:
     display_name: "Trevor Wavrunek"
-    webpage: https://www.linkedin.com/in/trevor-wavrunek-b0392b137/
     image: img/people/TrevorWavrunek.png
     role: grad
     bio: Trevor Wavrunek obtained his BS in Engineering Physics with Chemistry Minor from University of Wisconsin - Platteville in 2021 and is a PhD Candidate at MTU's MAE Department. His current research focuses on process modeling of Bismaleimide resins via molecular dynamics simulation.
@@ -27,15 +32,15 @@ Tristan:
     role: grad
     bio: Biography
 
-Keith:
-    display_name: "Keith Pikelman"
-    role: grad
-    bio: Biography
-
 Mallory:
     display_name: "Mallory Metzger"
     role: ugrad
     bio: Biography
+
+Khate:
+    display_name: "Khatereh Kashmari"
+    role: alum
+    bio:  Ph.D., 2025.
 
 Swapnil:
     display_name: "Swapnil Bamane"
@@ -45,27 +50,26 @@ Swapnil:
 Ivan:
     display_name: "Ivan Gallegos"
     role: alum
+    image: img/people/IvanGallegos.jpg
     bio:  Ph.D., 2024.
-
-Khate:
-    display_name: "Khatereh Kashmari"
-    role: alum
-    bio:  Ph.D., 2025.
 
 Prathamesh:
     display_name: "Prathamesh Despande"
     role: alum
-    bio:  Ph.D., 2022.
+    image: img/people/Prathamesh.jpg
+    bio:  Ph.D., 2022. Now at COEP Technological University, Pune (Adjunct Faculty)
 
 Hashim:
     display_name: "Hashim al Mahmud"
     role: alum
-    bio:  Ph.D., ????.
+    image: img/people/Hashim.jpg
+    bio:  Ph.D., 2020. Now Assistant Professor at the University of Kufa/Mechanical Engineering Department, Iraq.
 
 Will:
     display_name: "Will Pisani"
     role: alum
-    bio:  Ph.D., ????.
+    image: img/people/WillPisani.jpg
+    bio:  Ph.D., 2019. Now at US Army ERDC Environmental Lab (Research Chemist)
 
 Matt:
     display_name: "Matt Radue"

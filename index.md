@@ -6,17 +6,17 @@ title: Home
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
 - - roles: [faculty, postdoc, staff]
-    width: 4
+    width: 5
     image: true
   - roles: [grad]
-    width: 8
+    width: 7
     image: true
 - - roles: [collab, ugrad, ugrad-alum]
     width: 5
     image: false
   - roles: [alum]
     width: 7
-    image: false
+    image: true
 
 ---
 
