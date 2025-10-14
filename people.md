@@ -11,7 +11,7 @@ no-picture-role-groups:
 - {roles: [alum], width: 7}
 
 ###########################
-# To add lab members, add them in the _data/people.yml file, not here
+# To add/edit lab members, modify the _data/people.yml file, not here
 ###########################
 ---
 

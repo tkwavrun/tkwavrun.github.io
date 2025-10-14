@@ -9,17 +9,14 @@ Greg:
 Sagar:
     display_name: "Sagar U. Patil"
     role: staff
-    bio: Biography
 
 Josh:
     display_name: "Josh Kemppainen"
     role: postdoc
-    bio: Biography
 
 Keith:
     display_name: "Keith Pikelman"
     role: grad
-    bio: Biography
     
 Trevor:
     display_name: "Trevor Wavrunek"
@@ -30,12 +27,10 @@ Trevor:
 Tristan:
     display_name: "Tristan Muzzy"
     role: grad
-    bio: Biography
 
 Mallory:
     display_name: "Mallory Metzger"
     role: ugrad
-    bio: Biography
 
 Khate:
     display_name: "Khatereh Kashmari"
@@ -45,7 +40,8 @@ Khate:
 Swapnil:
     display_name: "Swapnil Bamane"
     role: alum
-    bio: Ph.D., 2024. Now at University of North Carolina (PostDoc).
+    image: img/people/Swapnil.jpg
+    bio: Ph.D., 2023. Now at University of North Carolina at Charlotte (PostDoc).
 
 Ivan:
     display_name: "Ivan Gallegos"
@@ -74,17 +70,17 @@ Will:
 Matt:
     display_name: "Matt Radue"
     role: alum
-    bio:  Ph.D., ????.
+    bio:  Ph.D., 2017.
 
 Marianna:
     display_name: "Marianna Maiaru"
     role: collab
-    bio:  Biography
+    bio:  Marianna Maiaru is an Associate Professor in Civil Engineering and Engineering Mechanics at Columbia University and an expert in Integrated Computational Materials Engineering (ICME), virtual manufacturing, and computational mechanics. She received her Ph.D. in Aerospace Engineering as a collaboration between Politecnico di Torino in Italy and the University of Michigan. Maiaru has received numerous grants from NASA, NSF, and the Air Force, including the AFOSR Young Investigator Program award in 2020 and the NSF CAREER award in 2022. She received the DEStech Young Researcher Award in 2021 and the AIAA ICME Prize in 2020 and 2022. Prof. Maiaru is an Assistant Editor for Composites Part A Applied Science and Manufacturing.
 
 Liang:
     display_name: "Richard Liang"
     role: collab
-    bio:  Biography
+    bio:  Zhiyong (Richard) Liang is a professor in the Department of Industrial and Manufacturing, at Florida State University. He also serves as the Director of the FSU High-Performance Materials Institute (HPMI). He received his PhD degree in Materials Science and Engineering from the Beijing University of Aeronautics and Astronautics. As PI and Co-PI, he has worked on more than 50 research grants. He has about 25 US patents and pending applications. He has published more than 110 refereed journal papers. He advised 26 MS, 10 PhD and 7 honors thesis students, as well as 22 postdocs since joining FSU. With his colleagues and students, he has won 17 outstanding research, best paper, innovation and student advising awards.
 
 Others:
     display_name: "..."

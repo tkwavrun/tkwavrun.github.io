@@ -3,13 +3,7 @@
 
 all: build
 
-BIBBLE = bibble
-
-_includes/pubs.html: bib/pubs.bib bib/publications.tmpl
-	mkdir -p _includes
-	$(BIBBLE) $+ > $@
-
-build: _includes/pubs.html
+build:
 	bundle exec jekyll build
 
 # you can configure these at the shell, e.g.:
@@ -17,13 +11,13 @@ build: _includes/pubs.html
 SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000
 
-serve: _includes/pubs.html
+serve:
 	bundle exec jekyll serve
 
 clean:
-	$(RM) -r _site _includes/pubs.html
+	$(RM) -r _site
 
-workflow: clean _includes/pubs.html
+workflow: clean
 
 push: clean build
   # this needs to be updated to git push instead
