@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme="light">
+<html data-bs-theme="dark">
 <head>
   <title>{{ site.name }}: {{ page.title }}</title>
   <meta charset="utf-8">
@@ -9,8 +9,9 @@
   <link rel="icon" type="image/x-icon" href="{{ site.base }}/img/logo.png">
 
   <!-- theme import -->
-  <link rel="stylesheet" href="{{ site.base }}/css/bootstrap.css">
+  <link rel="stylesheet" href="{{ site.base }}/css/flatly/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link id="theme-link" rel="stylesheet" href="{{ site.baseurl }}/css/flatly/bootstrap.css">
 
   <!-- custom styles -->
   <link rel="stylesheet" href="{{ site.base }}/css/group.css">
@@ -66,6 +67,13 @@
     </div>
   </nav>
 
+  <!-- Toggle Dark Mode-->
+  <dif class="darkMode-btn">
+    <button id="dark-mode-toggle" class="btn btn-secondary btn-sm ml-2">
+      Dark Mode
+    </button>
+  </dif>
+
   <div class="container">
     {% if page.image %}
         <img src="{{ page.image }}"
@@ -94,6 +102,32 @@
   <script type="text/javascript"
       src="{{ site.base }}/js/srcset-polyfill.js"></script>
 
+
+  <!-- dark mode-->
+  <script>
+  const toggle = document.getElementById('dark-mode-toggle');
+  const themeLink = document.getElementById('theme-link');
+
+  // Optionally, remember mode in localStorage
+  if (localStorage.getItem('theme') === 'dark') {
+    themeLink.href = '{{ site.baseurl }}/css/darkly/bootstrap.css';
+  }
+
+  toggle.addEventListener('click', () => {
+    if (themeLink.href.includes('flatly')) {
+      themeLink.href = '{{ site.baseurl }}/css/darkly/bootstrap.css';
+      localStorage.setItem('theme', 'dark');
+      toggle.textContent = 'Light Mode';
+    } else {
+      themeLink.href = '{{ site.baseurl }}/css/flatly/bootstrap.css';
+      localStorage.setItem('theme', 'light');
+      toggle.textContent = 'Dark Mode';
+    }
+  });
+</script>
+
 </body>
+
+
 
 </html>
