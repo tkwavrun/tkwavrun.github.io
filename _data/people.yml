@@ -47,7 +47,7 @@ Ivan:
     display_name: "Ivan Gallegos"
     role: alum
     image: img/people/IvanGallegos.jpg
-    bio:  Ph.D., 2024.
+    bio:  Ph.D., 2024. Now at Air Force Research Lab (Fuels Research Engineer)
 
 Prathamesh:
     display_name: "Prathamesh Despande"
@@ -75,13 +75,13 @@ Matt:
 Marianna:
     display_name: "Marianna Maiaru"
     role: collab
-    bio:  Marianna Maiaru is an Associate Professor in Civil Engineering and Engineering Mechanics at Columbia University and an expert in Integrated Computational Materials Engineering (ICME), virtual manufacturing, and computational mechanics. She received her Ph.D. in Aerospace Engineering as a collaboration between Politecnico di Torino in Italy and the University of Michigan. Maiaru has received numerous grants from NASA, NSF, and the Air Force, including the AFOSR Young Investigator Program award in 2020 and the NSF CAREER award in 2022. She received the DEStech Young Researcher Award in 2021 and the AIAA ICME Prize in 2020 and 2022. Prof. Maiaru is an Assistant Editor for Composites Part A Applied Science and Manufacturing.
+    bio:  Associate Professor in Civil Engineering and Engineering Mechanics at Columbia University and an expert in Integrated Computational Materials Engineering (ICME), virtual manufacturing, and computational mechanics.
 
 Liang:
-    display_name: "Richard Liang"
+    display_name: "Zhiyong (Richard) Liang"
     role: collab
-    bio:  Zhiyong (Richard) Liang is a professor in the Department of Industrial and Manufacturing, at Florida State University. He also serves as the Director of the FSU High-Performance Materials Institute (HPMI). He received his PhD degree in Materials Science and Engineering from the Beijing University of Aeronautics and Astronautics. As PI and Co-PI, he has worked on more than 50 research grants. He has about 25 US patents and pending applications. He has published more than 110 refereed journal papers. He advised 26 MS, 10 PhD and 7 honors thesis students, as well as 22 postdocs since joining FSU. With his colleagues and students, he has won 17 outstanding research, best paper, innovation and student advising awards.
+    bio:  Professor in the Department of Industrial and Manufacturing at Florida State University and Director of the FSU High-Performance Materials Institute (HPMI).
 
-Others:
-    display_name: "..."
-    role: alum
+ReaxFF:
+    display_name: "ReaxFF Consulting"
+    role: collab

@@ -12,22 +12,26 @@ title: Our Research
 ---
 
 <div class="row">
-<h2>What We Do</h2>
-{% assign sorted_topics = site.concepts | sort: "order" %}
-{% for topic in sorted_topics %}
-  <h4>{{ topic.title }}</h4>
-  <p>{{ topic.content }}</p>
-{% endfor %}
+  <div class="col-12">
+    <h2>What We Do</h2>
+    {% assign sorted_topics = site.concepts | sort: "order" %}
+    {% for topic in sorted_topics %}
+      <h4>{{ topic.title }}</h4>
+      <p>{{ topic.content }}</p>
+    {% endfor %}
+  </div>
 </div>
 
+
 <div class="row">
-  <h2>Current & Past Projects</h2>
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
-    {% endfor %}
+  <div class="col-12">
+    <h2>Current & Past Projects</h2>
+  </div>
+</div>
+<div class="row">
+  {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+  {% assign projects_by_date = projects_by_date | reverse %}
+  {% for p in projects_by_date %}
+    {% include project-card.html project=p %}
+  {% endfor %}
 </div>

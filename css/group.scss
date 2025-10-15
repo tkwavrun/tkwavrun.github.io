@@ -1,9 +1,6 @@
 ---
 ---
 
-$gray: #999;
-$light-gray: #EEE;
-
 /* Space out content a bit */
 body {
     padding-top: 0px;
@@ -13,7 +10,7 @@ body {
 //      height:50px;}
 
 .header {
-    border-bottom: 1px solid $light-gray;
+    border-bottom: 1px solid var(--gray);
     padding-bottom: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -21,38 +18,29 @@ body {
 
 .footer {
     /* padding-top: 19px; */
-    color: $gray;
-    border-top: 1px solid $light-gray;
+    color: rgba(var(--gray));
+    border-top: 1px solid var(--gray);
     text-align: center;
     font-size: 0.8em;
 
     a:link, a:visited {
-        color: $gray;
+        color: var(--gray);
     }
 }
 
-.darkMode-btn {
+.theme-toggle-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999; /* always on top */
-  border-radius: 50%; /* circular */
+  z-index: 9999;
+  border: var(--secondary);
+  border-radius: 50%;
   width: 50px;
   height: 50px;
-  padding: 0;
-  font-size: 24px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-// "font awesome stuff (I don't know what it does tbh)"
-.fa {
-    color: $gray;
-}
-a > .fa {
-    // make sure that font-awesome icons are underlined in links
-    display: inline;
 }
 
 /* Jumbotron */
@@ -68,7 +56,7 @@ a > .fa {
 // set navbar active text color to work with pill hilight
 .navbar{
  --bs-navbar-padding-y: 0px;
---bs-navbar-active-color: rgba(var(--bs-secondary-bg-rgb), 1);
+--bs-navbar-active-color: rgba(var(--secondary), 1);
 }
 .navbar-nav{
   --bs-nav-link-font-weight: 600;
@@ -79,13 +67,6 @@ a > .fa {
     background-color: #27486f;
 }
 
-// pill colors
-// .nav-pills {
-//     --bs-nav-pills-border-radius: var(--bs-border-radius);
-//     --bs-nav-pills-link-active-color: #fff;
-//     --bs-nav-pills-link-active-bg: #2c3e50;
-// }
-
 /* Group logo */
 #logo {
     padding-top: 0em;
@@ -95,7 +76,7 @@ a > .fa {
 /* Front page news. */
 ul.news {
     .date {
-        color: $gray;
+        color: var(--gray);
         font-weight: bold;
     }
     > li {
@@ -109,21 +90,13 @@ ul.news {
     }
   }
 
-// title img {
-//     max-width: 25%;
-// }
-
-// section {
-//     margin-bottom: 2em;
-// }
-
 .profile {
     object-fit: cover; // makes sure it's cropped
 }
 
 .noprofile {
     circle {
-        fill: $light-gray;
+        fill: var(--gray);
     }
     text {
         font-weight: 700;
@@ -147,7 +120,7 @@ ul.news {
         width: 70px;
     }
     .bio {
-        color: $gray;
+        color: var(--gray);
     }
     .person-name {
         margin: 0;
