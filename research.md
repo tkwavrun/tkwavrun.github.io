@@ -13,7 +13,7 @@ title: Our Research
 
 <div class="row">
   <div class="col-12">
-    <h2>What We Do</h2>
+    <h2>Notable Research Excerpts</h2>
     {% assign sorted_topics = site.concepts | sort: "order" %}
     {% for topic in sorted_topics %}
       <h4>{{ topic.title }}</h4>
