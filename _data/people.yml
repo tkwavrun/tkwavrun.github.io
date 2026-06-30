@@ -9,14 +9,13 @@ Greg:
 Sagar:
     display_name: "Sagar U. Patil"
     role: staff
+    image: img/people/Sagar.jpg
+    bio: Sagar Patil is a Research Engineer at the Computational Materials Modeling and Research (CMMR) Lab at Michigan Technological University. His work lies at the intersection of computational materials science and engineering, where he leverages atomistic simulations, multi-scale modeling, and experimental integration to investigate and develop high-performance materials. With a focus on understanding structure–property relationships at multiple scales, Sagar contributes to advancing materials for energy, aerospace, and structural applications. His approach bridges theory and practice, providing predictive insight into material behavior under complex environments.
 
 Josh:
     display_name: "Josh Kemppainen"
-    role: postdoc
-
-Keith:
-    display_name: "Keith Pikelman"
-    role: grad
+    role: staff
+    bio: Ph.D. MTU, 2025
     
 Trevor:
     display_name: "Trevor Wavrunek"
@@ -27,10 +26,18 @@ Trevor:
 Tristan:
     display_name: "Tristan Muzzy"
     role: grad
+    iage: img/people/Sagar.jpg
+    bio: Tristan Muzzy's work is on molecular dynamics modeling of polymerization and pyrolysis of composite materials. He has a bachelor’s in aerospace engineering from Embry-Riddle in 2023 focusing on thermodynamics and computational modeling of dynamic systems.
+
+Alison:
+    display_name: "Alison Pafford"
+    role: grad
 
 Mallory:
     display_name: "Mallory Metzger"
-    role: ugrad
+    role: grad
+    image: img/ people/Mallory.jpg
+    bio: Mallory Metzger will obtained her B.S. in Chemical Engineering with minors in German and Mathematics from Michigan Technological University (MTU) in spring 2026. She has since continued her education in 2026 as an accelerated masters student in MTU's MAE Department. Her current and future research focuses on process modeling of high performance polymers via molecular dynamics simulation.
 
 Khate:
     display_name: "Khatereh Kashmari"
@@ -47,7 +54,7 @@ Ivan:
     display_name: "Ivan Gallegos"
     role: alum
     image: img/people/IvanGallegos.jpg
-    bio:  Ph.D., 2024. Now at Air Force Research Lab (Fuels Research Engineer)
+    bio:  Ph.D., 2024.
 
 Prathamesh:
     display_name: "Prathamesh Despande"
