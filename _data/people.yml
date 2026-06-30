@@ -26,7 +26,7 @@ Trevor:
 Tristan:
     display_name: "Tristan Muzzy"
     role: grad
-    iage: img/people/Sagar.jpg
+    image: img/people/Tristan.jpg
     bio: Tristan Muzzy's work is on molecular dynamics modeling of polymerization and pyrolysis of composite materials. He has a bachelor’s in aerospace engineering from Embry-Riddle in 2023 focusing on thermodynamics and computational modeling of dynamic systems.
 
 Alison:
@@ -36,7 +36,7 @@ Alison:
 Mallory:
     display_name: "Mallory Metzger"
     role: grad
-    image: img/ people/Mallory.jpg
+    image: img/people/Mallory.jpg
     bio: Mallory Metzger will obtained her B.S. in Chemical Engineering with minors in German and Mathematics from Michigan Technological University (MTU) in spring 2026. She has since continued her education in 2026 as an accelerated masters student in MTU's MAE Department. Her current and future research focuses on process modeling of high performance polymers via molecular dynamics simulation.
 
 Khate:
