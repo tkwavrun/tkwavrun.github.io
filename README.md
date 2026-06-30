@@ -1,9 +1,16 @@
-This is the repository hosting a draft version of the CMMR website.
+Welcome to the source page of the CMMR website.
 
 It's built on [Jekyll](https://jekyllrb.com/)
 
-
 Attn CMMR group:
-Updating the website is as simple as editing the file on github, then saving it. A "Github Actions" workflow will handle the rest.
+All content edits can be done in github, and the website will update automatically.
 
-However, if you want to edit in a little more detail, I'd recommend [installing Jekyll](https://jekyllrb.com/docs/installation/) locally for testing.
+To edit people's info: edit _data/people.yml
+To add news (awards, etc): in _posts, click "add file" and create a post using the existing templates
+To add new projects: add a project in _projects
+To add new info pages: add a markdown file to _concepts.md
+To add links to CMMR resources and github projects, edit code.md
+
+To edit homepage content, you'll probably find what you're looking for in index.md
+
+However, if you want to edit in a little more detail, you can [install Jekyll](https://jekyllrb.com/docs/installation/) locally for testing.
